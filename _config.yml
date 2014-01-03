@@ -9,3 +9,5 @@ author :
 
 relative_permalinks: false
 permalink: pretty
+
+exclude: ['*sublime*','README.md']
