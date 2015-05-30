@@ -1,13 +1,18 @@
 # About the site and the author.
-title : Paul Shirley
+title: Paul Shirley
 tagline: Personal Landing Page for Paul Shirley
-author :
-  name : Paul Shirley
-  email : paul@paulshirley.ie
-  github : paulshir
-  twitter : paulshir
+author:
+  name: Paul Shirley
+  email: paul@paulshirley.ie
+  github: paulshir
+  twitter: paulshir
 
 relative_permalinks: false
 permalink: pretty
+
+collections:
+  go:
+    output: true
+    permalink: /:path/
 
 exclude: ['*sublime*','README.md']
